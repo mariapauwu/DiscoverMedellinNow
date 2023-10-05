@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DMN</title>
+    <link rel="stylesheet" href="inicio.component.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- barra de navegación -->
+    <app-navbar></app-navbar>
+
+    <main>
+      <section class="containerLeft">
+        <h1>Discover Medellin Now</h1>
+        <p>Conoce y disfruta Medellín sin <br />necesidad de terceros</p>
+        <div class="containerImgButton">
+          <img
+            class="imagen"
+            src="../../assets/imagenes/medellin .png"
+            alt="Mi Imagen"
+          />
+          <a href="">Comienza la aventura</a>
+        </div>
+      </section>
+
+      <section class="containerRight">
+        <h1>¿Qué hay pa hacer?</h1>
+        <div class="cartas">
+          <div class="carta blue">
+            <div class="texto-card">
+              <a routerLink="/restaurantes">Restaurantes</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img src="../../assets/imagenes/bandejapaisa .png" alt="" />
+          </div>
+          <div class="carta blue">
+            <div class="texto-card">
+              <a routerLink="/restaurantes">Atracciones</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img src="../../assets/imagenes/pueblitopaisa .png" alt="" />
+          </div>
+          <div class="carta">
+            <div class="texto-card">
+              <a routerLink="/restaurantes">Actividades</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img src="../../assets/imagenes/discoteca.png" alt="" />
+          </div>
+          <div class="carta">
+            <div class="texto-card">
+              <a routerLink="/restaurantes">Trabajo</a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <img src="../../assets/imagenes/mapa.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

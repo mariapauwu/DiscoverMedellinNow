@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    color: #0189c7;
+    font-size: 35px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+.carousel{
+    margin-top: 5px;
+    margin-left: 7cm;
+}
+hr{
+    height: 10px;
+    width: 50%;
+    margin-left: 10cm;
+    color: #f7197d;
+}
+.buscar{
+    position: absolute;
+    padding: 0px;
+    left: 42%;
+}
+.buscar input{
+    width: 240px;
+    height: 55px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 50px;
+}
+.btn_buscar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #0189c7;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn_buscar:hover {
+    background-color: #00c6fd;
+    font-size: 22px;
+}
+.card-img-top {
+    width: 215.1px;
+    height: 200px;
+    object-fit: cover;
+
+}
