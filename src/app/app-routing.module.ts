@@ -6,6 +6,7 @@ import { atraccionesComponent } from './Componentes/atracciones/atracciones.comp
 import { MapaComponent } from './Componentes/mapa/mapa.component';
 
 
+
 const routes: Routes = [
   {path: '', component: InicioComponent},
   {path: 'restaurante', component: RestauranteComponent},
