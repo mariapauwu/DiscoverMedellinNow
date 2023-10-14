@@ -1,20 +1,22 @@
 import { Component, OnInit } from "@angular/core";
+import { ApiActivity } from '../../services/atraccion_s/atraccion.service';
 import { HttpClient } from '@angular/common/http';
 
 
 @Component({
     selector: 'app-atracciones',
     templateUrl: './atracciones.component.html',
+    styleUrls: ['./atracciones.component.css']
     })
 
 export class atraccionesComponent implements OnInit {
-    data: any;
+  datos: any;
 
-    constructor(private http: HttpClient) {}
+  constructor(private apiService: ApiActivity) {}
 
-    ngOnInit(): void {
-      this.http.get('/src/app/componentes/atracciones').subscribe((response) => {
-        this.data = response;
-      });
-    }
+  ngOnInit() {
+    this.apiService.getDatos().subscribe(data => {
+      this.datos = data;
+    });
+  }
 }

@@ -1,12 +1,12 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atracciones</title>
-</head>
-<body>
-    
-    <h1>Hola</h1>
+<app-navbar></app-navbar>
 
-</body>
-</html>
+
+<div class="datos" *ngFor="let dato of datos">
+    {{ dato.name }}
+    {{ dato.phone }}
+    <!-- Agregar más campos según la estructura de tus datos -->
+</div>
+
+
+<h1>Hola</h1>
+

@@ -6,6 +6,7 @@ import { RestauranteComponent } from './Componentes/restaurante/restaurante.comp
 import { NavbarComponent } from './Componentes/navbar/nabvar.component';
 import { InicioComponent } from './Componentes/Inicio/inicio.component';
 import { MapaComponent } from './Componentes/mapa/mapa.component';
+import { atraccionesComponent } from "./Componentes/atracciones/atracciones.component";
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -16,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     InicioComponent,
     MapaComponent,
+    atraccionesComponent,
   ],
   imports: [
     BrowserModule,
