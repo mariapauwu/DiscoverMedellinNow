@@ -111,3 +111,12 @@ i{
 hr{
     margin-top: 150px;
 }
+@media (max-width: 768px) {
+    .sidebar {
+        width: 70px;
+    }
+
+    .logo img {
+        width: 90px;
+    }
+}
