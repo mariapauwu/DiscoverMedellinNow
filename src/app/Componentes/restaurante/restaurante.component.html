@@ -20,82 +20,17 @@
     <input type="text" placeholder="Buscar">
     <div class="btn_buscar"><i class="fa-solid fa-magnifying-glass"></i></div>
 </div>
-<h2>Restaurantes Recomendados</h2>
+<h2>Nuestros restaurantes</h2>
 
-<div id="restaurantCarousel" class="carousel slide" data-bs-ride="carousel">
-    <!-- Indicadores de Carrusel -->
-    <ol class="carousel-indicators">
-        <li data-bs-target="#restaurantCarousel" data-bs-slide-to="0" class="active"></li>
-        <li data-bs-target="#restaurantCarousel" data-bs-slide-to="1"></li>
-        <li data-bs-target="#restaurantCarousel" data-bs-slide-to="2"></li>
-        <li data-bs-target="#restaurantCarousel" data-bs-slide-to="3"></li>
-    </ol>
-
-    <!-- Contenido del Carrusel -->
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <div class="row row-cols-1 row-cols-md-6 g-4 justify-content-center align-items-center">          
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://www.vivirbiencolmedica.com/wp-content/uploads/2022/09/comida-chatarra.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">restaurante 1</h5>
-                                <p class="card-text">Abierto <i class="fa-solid fa-star" style="color: #fbff00;"></i> 5,0</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://s1.1zoom.me/prev/605/Meat_products_Knife_Roast_Chicken_Plate_Fork_604758_600x400.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">restaurante 2</h5>
-                                <p class="card-text">Abierto <i class="fa-solid fa-star" style="color: #fbff00;"></i> 4,5</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://www.cheeseokay.com/wp-content/uploads/2020/08/01general-1.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">restaurante 4</h5>
-                                <p class="card-text">Abierto <i class="fa-solid fa-star" style="color: #fbff00;"></i> 2,0</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://www.196flavors.com/wp-content/uploads/2021/06/bandeja-paisa-2fp.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">restaurante 3</h5>
-                                <p class="card-text">Abierto <i class="fa-solid fa-star" style="color: #fbff00;"></i> 2,0</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-        <div class="carousel-item">
-            <div class="row row-cols-1 row-cols-md-4 g-4 justify-content-center align-items-center">
-                <!-- Las 2 tarjetas adicionales aquí -->
+<!--<div class="row row-cols-1 row-cols-md-4 g-6  tarjetas">
+    <div class="col" *ngFor="let dato of datos">
+        <div class="card">
+            <img [src]="dato.imagen" class="card-img-top" alt="Imagen de {{ dato.name }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ dato.name }}</h5>
+                <p class="card-text">{{ dato.score }}</p> 
             </div>
         </div>
     </div>
-
-    <!-- Controles del Carrusel -->
-    <a class="carousel-control-prev" href="#restaurantCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#restaurantCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </a>
 </div>
-
-
-
-
-
+-->

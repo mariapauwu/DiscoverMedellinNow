@@ -1,12 +1,42 @@
 <app-navbar></app-navbar>
 
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.ngenespanol.com/wp-content/uploads/2022/09/medellin-la-ciudad-colombiana-de-la-eterna-primavera.jpg"
+                class="d-block carousel-img" alt="..." width="1000px" height="450px">
+        </div>
+        <div class="carousel-item">
+            <img src="https://estaticos.elcolombiano.com/binrepository/893x565/57c0/780d565/none/11101/XKEB/documentation-fotos-1-13717159-6ed56232effbbe3127a19d67b2f920b4_43070691_20230817105411.jpg" class="d-block carousel-img" alt="..."
+                width="1000px" height="450px">
+        </div>
+        <div class="carousel-item">
+            <img src="https://c8.alamy.com/compes/hgc960/guatape-medellin-colombia-hgc960.jpg"
+                class="d-block carousel-img" alt="..." width="1000px" height="450px">
+        </div>
+    </div>
+</div>
+<hr>
+<h1>¿Que quieres hacer?</h1>
 
-<div class="datos" *ngFor="let dato of datos">
-    {{ dato.name }}
-    {{ dato.phone }}
-    <!-- Agregar más campos según la estructura de tus datos -->
+<div class="buscar">
+    <input type="text" placeholder="Buscar">
+    <div class="btn_buscar"><i class="fa-solid fa-magnifying-glass"></i></div>
+</div>
+<h2>Nuestras atracciones</h2>
+
+<div class="row row-cols-1 row-cols-md-4 g-6  tarjetas">
+    <div class="col-12 my-2" *ngFor="let dato of datos">
+        <div class="card">
+            <img [src]="dato.imagen" class="card-img-top" alt="Imagen de {{ dato.name }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ dato.name }}</h5>
+                <p class="card-text">{{ dato.score }}</p>
+                <!-- Puedes agregar más campos según la estructura de tus datos aquí -->
+            </div>
+        </div>
+    </div>
 </div>
 
 
-<h1>Hola</h1>
 

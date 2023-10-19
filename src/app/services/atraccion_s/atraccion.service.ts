@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiActivity {
-  private apiUrl = 'http://127.0.0.1:8000/';  // Reemplaza con la URL de tu API
+  private apiUrl = 'http://127.0.0.1:8000/';
 
   constructor(private http: HttpClient) {}
 
