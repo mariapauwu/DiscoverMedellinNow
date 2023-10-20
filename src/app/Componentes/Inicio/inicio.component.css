@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("../../../assets/imagenes/fondo.png");
+  background-image: url("../../../assets/imagenes/fondo2.jpg");
 }
 
 main {
@@ -50,7 +50,7 @@ main {
 
 .containerImgButton a {
   padding: 3% 5%;
-  background: #2874a6;
+  background: #212F3D;
   color: #fff;
   text-decoration-line: none;
   border-radius: 15px;
@@ -75,7 +75,7 @@ main {
 }
 
 .carta {
-  background-color: #8db5d4;
+  background-color: #C0B9F6;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -84,7 +84,7 @@ main {
 }
 
 .orange {
-  background-color: #ffca76;
+  background-color: #F9E17C;
 }
 
 .texto-card a {

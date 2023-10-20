@@ -25,7 +25,6 @@ body {
     background: #212F3D;
     backdrop-filter: blur(17px);
     --webkit-backdrop-filter: blur(17px);
-    border-right: 1px solid rgba(255, 255, 255, 0.7);
     transition: width 0.3s ease;
 }
 
@@ -73,7 +72,7 @@ body {
 
 .links li:hover {
     cursor: pointer;
-    background: #00c6fd;
+    background: #4E6B88;
 }
 
 .links li span {
