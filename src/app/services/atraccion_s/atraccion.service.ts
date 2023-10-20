@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiActivity {
-  private apiUrl = 'http://127.0.0.1:8000/';
+  private apiUrl = 'https://api-activity-dmn.onrender.com';
 
   constructor(private http: HttpClient) {}
 
