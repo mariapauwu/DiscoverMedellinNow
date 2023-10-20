@@ -43,14 +43,9 @@ body {
     width: 100%;
     max-width: 150px;
     border-radius: 50%;
-}
+    width: 80px;
+    height: 80px;
 
-.logo h2 {
-    font-size: 1.15rem;
-    font-weight: 600;
-    margin-left: 10px;
-    display: none;
-    color: white;
 }
 
 .sidebar:hover .logo h2 {
@@ -113,6 +108,7 @@ hr{
     margin-top: 150px;
 }
 
+
 @media (max-width: 700px) {
     .sidebar {
         width: 53px;
@@ -120,6 +116,8 @@ hr{
 
     .logo img {
         width: 90px;
+        height: 90px;
     }
+    
     
 }

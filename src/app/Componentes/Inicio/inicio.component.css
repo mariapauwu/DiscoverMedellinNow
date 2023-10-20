@@ -208,6 +208,7 @@ main {
 @media (max-width: 600px) {
   .containerLeft {
     width: 80%;
+    margin-left: 55px;
   }
 
   .containerLeft h1 {
@@ -216,6 +217,7 @@ main {
 
   .containerRight h1 {
     font-size: 7vw;
+    margin-left: 85px;
   }
 
   .containerLeft p {
@@ -225,7 +227,10 @@ main {
   .containerImgButton a {
     font-size: 4vw;
   }
-
+  .cartas{
+    margin-left: 30px;
+    width: 300px;
+  }
   .texto-card a {
     font-size: 6vw;
   }
