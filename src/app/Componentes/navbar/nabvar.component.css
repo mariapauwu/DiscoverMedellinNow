@@ -15,6 +15,7 @@ body {
 
 .sidebar {
     position: fixed;
+    z-index: 1000;
     top: 0;
     left: 0;
     width: 5%;
@@ -95,6 +96,34 @@ body {
 .links .logout-link {
     margin-top: 20px;
 }
+
+
+
+.sidebar .submenu {
+    position: absolute;
+    left: 100%;
+    top: 20;
+    display: none;
+    background: #212F3D;
+    width: 150px;
+}
+.sidebar .submenu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar .submenu li {
+    padding: 10px;
+    border-bottom: 1px solid #212F3D;
+    text-align: left;
+}
+.sidebar .links li:hover .submenu {
+    display: block;
+}
+.sidebar .submenu.hidden {
+    display: none;
+}
+
 
 i{
     align-items: end;

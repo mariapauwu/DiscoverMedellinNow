@@ -9,10 +9,21 @@
             <a href="#">Inicio</a>
         </li>
         
-        <li>
+        <li (click)="toggleSubmenu(submenuElement)">
             <span class="material-symbols-outlined"><i class="fa-solid fa-earth-americas"></i></span>
             <a href="#">Viajes</a>
+            <div class="submenu" #submenuElement (mouseenter)="openSubmenu(submenuElement)"
+                (mouseleave)="closeSubmenu(submenuElement)">
+                <ul>
+                    <li><a routerLink="/atracciones">Atracciones</a></li>
+                    <li><a href="#">Actividades</a></li>
+                    <li><a routerLink="/restaurante">Restaurantes</a></li>
+                    <li><a routerLink="/mapa">Mapa</a></li>
+                </ul>
+            </div>
         </li>
+
+
         <li>
             <span class="material-symbols-outlined"><i class="fa-solid fa-circle-exclamation"></i></span>
             <a href="#">Acerca de</a>
