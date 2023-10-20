@@ -16,6 +16,7 @@ export class atraccionesComponent implements OnInit {
 
   ngOnInit() {
     this.apiService.getDatos().subscribe(data => {
+      console.log(data);
       this.datos = data;
     });
   }
